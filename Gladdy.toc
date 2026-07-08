@@ -4,6 +4,6 @@
 ## Author: XiconQoo, DnB_Junkee, Knall
 ## X-Email: contact me on discord Knall#1751
 ## X-Curse-Project-ID: 482332
-## X-WoWI-ID: 26350
+## X-WoWI-ID: 68575
 ## Notes: Gladdy only supports Classic TBC and Classic WotLK.
 ## SavedVariables: GladdyXZ

@@ -225,7 +225,7 @@ function Pets:CreateFrame(unitId)
         healthBar.nameText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), 1)
         healthBar.nameText:Hide()
     else
-        healthBar.nameText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), Gladdy.db.petHealthBarFontSize)
+        healthBar.nameText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), Gladdy.db.petHealthBarFontSize or "")
         healthBar.nameText:Show()
     end
     healthBar.nameText:SetTextColor(Gladdy:SetColor(Gladdy.db.petHealthBarFontColor))
@@ -239,7 +239,7 @@ function Pets:CreateFrame(unitId)
         healthBar.healthText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), 1)
         healthBar.healthText:Hide()
     else
-        healthBar.healthText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), Gladdy.db.petHealthBarFontSize)
+        healthBar.healthText:SetFont(Gladdy:SMFetch("font", "petHealthBarFont"), Gladdy.db.petHealthBarFontSize or "")
         healthBar.healthText:Hide()
     end
     healthBar.healthText:SetTextColor(Gladdy:SetColor(Gladdy.db.petHealthBarFontColor))
